@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>java </title>
+	<link rel="stylesheet" type="text/css" href="script.js">
+</head>
+<body>
+<script type="text/javascript">
+/*var prenom=prompt("veuiller saisir votre prenom");	
+var nom=prompt("veuiller saisir votre nom");
+var age=prompt("veuiller saisir votre age");
+alert(" vous vous appellez : " +prenom+ " votre nom est: " +nom+  " et vous avez : " +age)*/
+
+
+/*
+INCREMENTATION
+
+for (var i = 1;i<= 10; i++) {
+	alert(i)
+}
+var i=1;
+
+do{
+	i++;
+alert(i);
+}while(i<=10);
+var vari=1
+while(vari<=10){
+    alert(vari);
+    vari=vari+1;
+}
+
+DECREMENTATION
+
+var vari=10
+while(vari>=0){
+    alert(vari);
+    vari=vari-1;
+}
+for (var i = 10;i>=0; i--) {
+	alert(i)
+}
+var Y=10;
+do{
+	Y--;
+alert(Y);
+}while(Y>1);
+var tab=[22,-5,12,20,30];*/
+/*console.log(tab[0]);
+cconsole.log(tab[2]);
+console.log(tab[3]);
+console.log(tab[4]);*/
+/*for (var i =0;i<=4; i++) {
+	document.write(" "+tab[i]+""); pour mettre de lespace ==> "espace"+tab[i]+"espace"
+}
+
+
+for (var i =0;i>=0; i++) {
+	alert(i);
+	var x=0;
+	var x=prompt("veuillez saisir");
+	if (x>=0) {
+		alert('vous avez saisi un nmbre positif');
+	}
+	else (x<0) {
+		alert('vous avez saisi un nmbre negatif');
+	}
+}
+var tab=[];
+
+for (var i =0;i<5; i++) {
+	var valeur=parseInt(prompt("entrer un nombre"));
+	tab.push(valeur);
+	document.write(" "+tab[i]+"");
+}*/
+
+
+do {
+	var nombrefois=prompt("veuillez saisir une valeur positif");
+  
+   if (nombrefois<=0) {
+	var nombrefois=prompt("vous avez saisi un nbr negatif,veuillez saisir une valeur positif");	
+	
+     }
+} while (nombrefois<=0)
+var tab=[];
+for (var i =0;i<nombrefois; i++) {
+	var nombresaisi=parseInt(prompt("entrer un nombre"));
+	tab.push(nombresaisi);
+	document.write(" "+tab[i]+"");
+}
+</script>
+</body>
+</html>
